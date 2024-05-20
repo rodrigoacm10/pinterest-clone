@@ -1,4 +1,4 @@
-import BottomSheet from "@gorhom/bottom-sheet/lib/typescript/components/bottomSheet";
+import BottomSheet from "@gorhom/bottom-sheet";
 import { forwardRef } from "react";
 import { View, Text } from "react-native";
 import { MenuProps } from "./menu";

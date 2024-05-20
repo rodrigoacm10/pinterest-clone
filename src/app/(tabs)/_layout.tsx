@@ -5,7 +5,7 @@ import { Avatar } from "../components/avatar/index";
 import { View } from "react-native";
 import { Menu } from "../components/menu";
 import { useRef } from "react";
-import BottomSheet from "@gorhom/bottom-sheet/lib/typescript/components/bottomSheet";
+import BottomSheet from "@gorhom/bottom-sheet";
 
 export default function TabLayout() {
   const bottomSheetRef = useRef<BottomSheet>(null);
