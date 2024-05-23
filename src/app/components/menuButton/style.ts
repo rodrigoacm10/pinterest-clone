@@ -2,16 +2,18 @@ import { theme } from "@//theme";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  pressable: {
-    paddingBottom: 6,
+  container: {
+    alignItems: "center",
   },
   text: {
     color: theme.colors.white,
-    fontSize: 16,
     fontFamily: theme.fontFamily.medium,
+    fontSize: 14,
+    marginTop: 10,
   },
-  pressableSelected: {
-    borderBottomWidth: 4,
-    borderBottomColor: theme.colors.white,
+  icon: {
+    padding: 24,
+    backgroundColor: theme.colors.gray[700],
+    borderRadius: 24,
   },
 });

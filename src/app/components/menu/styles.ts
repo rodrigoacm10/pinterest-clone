@@ -21,4 +21,9 @@ export const styles = StyleSheet.create({
     textAlign: "center",
     marginRight: 24,
   },
+  options: {
+    flexDirection: "row",
+    gap: 16,
+    marginTop: 32,
+  },
 });

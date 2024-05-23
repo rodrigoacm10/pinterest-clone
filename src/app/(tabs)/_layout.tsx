@@ -39,7 +39,7 @@ export default function TabLayout() {
           name="search"
           options={{
             tabBarIcon: ({ size, color }) => (
-              <Foundation name="home" size={size} color={color} />
+              <Ionicons name="search" size={size} color={color} />
             ),
           }}
         />
